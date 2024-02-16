@@ -38,7 +38,7 @@ nav{
     align-items: center;
     font-size: 1rem;
     background-color: var(--corfundo);
-    border-bottom: 1.8px solid transparent;
+    border-bottom: 2px solid transparent;
     border-image: var(--cordestaque3);
     border-image-slice: 1;
     height: 2.5rem;
@@ -170,9 +170,14 @@ nav{
     padding: 0.3rem;
     font-size: 0.8rem;
     background-color: var(--corfundo);
-    border: 1.8px solid transparent;
+    border: 2px solid transparent;
     border-image: var(--cordestaque3);
     border-image-slice: 1;
+}
+
+.search-input input:focus{
+    outline: none;
+    border: 2px solid #00ffff;
 }
 
 .search-input input::placeholder{
