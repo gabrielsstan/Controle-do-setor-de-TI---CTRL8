@@ -6,7 +6,7 @@ Na parte superior há uma headerbar fixa com menus. Utilizo para acesso rápido 
 
 Na primeira sessão há um campo de pesquisa e alguns atalhos.
 
-1 - O campo de pesquisa funciona com o scripts.js em conjunto com o principais.css. O intuito dele é juntar PDFs com instruções que possam ajudar no dia a dia, pesquisar os ramais de contato da loja e alocar links de sistemas menos usados. Sua funcionalidade consiste em deixar o mouse em cima da caixa de pesquisa para revelar o menu de opções. Assim que concluír a pesquisa, basta retirar o mouse de cima da caixa para recolher o menu.
+1 - O campo de pesquisa funciona com o scripts.js em conjunto com o principais.css. O intuito dele é juntar PDFs com instruções que possam ajudar no dia a dia, pesquisar os ramais de contato da loja e alocar links de sistemas menos usados. Sua funcionalidade consiste em clicar na caixa de pesquisa para revelar o menu de opções. Assim que concluír a pesquisa, basta clicar fora da caixa para recolher o menu.
 
 2 - Os links de favoritos auxiliam no acesso aos sistemas que costumamos logar no início do expediente.
 
@@ -20,3 +20,5 @@ No canto inferior direito da página há um botão para retornar ao topo, na ses
 
 Até então, são essas funções. Para dúvidas e contribuições:
 email: gabrielstancf@gmail.com e instagram: gabrielsstan
+
+Alteração de conteúdo: 0; funcionalidade /aparência: 1. Versão 8.0.1

@@ -133,7 +133,7 @@ nav{
     display: none;
 }
 
-.search-input:hover .search-list{
+.search-input input:focus+.search-list{
     display: block;
     position: absolute;
     width:45rem;
@@ -400,6 +400,11 @@ nav{
 }
 
 /* Terceira parte */
+
+iframe{
+    background-color: white;
+    border: none;
+}
 
 .terceira{
     background-color: #21293d;
