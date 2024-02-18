@@ -133,7 +133,7 @@ nav{
     display: none;
 }
 
-.search-input input:focus+.search-list{
+.search-input input:focus+.search-list, .search-list:hover{
     display: block;
     position: absolute;
     width:45rem;
