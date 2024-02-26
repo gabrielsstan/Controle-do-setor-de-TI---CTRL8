@@ -18,6 +18,23 @@ body{
     background-color: var(--corfundo);
 }
 
+body::-webkit-scrollbar, .search-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track, .search-list::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+body::-webkit-scrollbar-thumb, .search-list::-webkit-scrollbar-thumb {
+  background-color: blue;
+}
+
+html, .search-list {
+  scrollbar-width: 10px;
+  scrollbar-color: blue #111111;   /* scroll thumb and track */
+}
+
 a{
     text-decoration: none;
     color: black;
