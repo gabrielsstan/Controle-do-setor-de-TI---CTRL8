@@ -18,6 +18,20 @@ Na terceira e quarta sessão estão os iframes do Google docs no qual usamos par
 
 No canto inferior direito da página há um botão para retornar ao topo, na sessão principal.
 
+Para adicionar os links para pesquisa e ao menu da headerbar, faça manualmente no arquivo do HTML (index.html)
+
+Para incluír link na headerbar, procure a respectiva class "menu-tag" e localize o href="#". Escolhendo o respectivo item, o link entrará no lugar do "#".
+
+Para incluír item na pesquisa, localize a class "search-list". Vá até a última linha da lista e inclua uma nova, por exemplo: <li><a href="#">Item</a></li>. O link entrará no lugar do "#" e o nome do item que aparecerá na pesquisa entrará no lugar de "Item".
+
+Para colocar link nos ícones de favorito, procure a class "favoritos" e substitua o "#" na lista pelo respectivo link que será usado.
+
+Para colocar link no ícone do Email, localize a class "atalhos" e substitua o "#" na lista pelo link que será usado.
+
+Para colocar link nos ícones da sessão de aplicativos, procure a class "segunda", no qual terá uma class "favoritos", e substitua o "#" na lista pelo respectivo link que será usado.
+
+Para incluír documentos nos diários de bordo e de chamado, procure as classes "teceira" e "quarta" e localize a tag <iframe>, após, coloque o link do respectivo documento em: src="#", substituindo o "#".
+
 Até então, são essas funções. Para dúvidas e contribuições:
 email: gabrielstancf@gmail.com e instagram: gabrielsstan
 
